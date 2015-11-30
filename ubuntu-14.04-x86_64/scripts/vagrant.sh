@@ -11,3 +11,6 @@ chown -R vagrant /home/vagrant/.ssh
 
 # Customize the message of the day
 echo 'Welcome to your Vagrant-built virtual machine.' > /etc/motd
+
+# Fix for vagrant error: "==> default: stdin: is not a tty"
+sed -i -r -e 's/^([# ]+)?(mesg n)/# \2/' /root/.profile
