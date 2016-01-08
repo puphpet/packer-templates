@@ -38,7 +38,7 @@
                 "initrd=/install/initrd.gz -- <enter>"
             ],
             "boot_wait": "10s",
-            "disk_size": 20480,
+            "disk_size": 102400,
             "guest_os_type": "Ubuntu_64",
             "http_directory": "http",
             "iso_checksum": "af224223de99e2a730b67d7785b657f549be0d63221188e105445f75fb8305c9",
