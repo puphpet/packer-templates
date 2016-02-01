@@ -8,3 +8,6 @@ Please go to the following repos depending on your distro of choice:
 * Debian: https://github.com/puphpet/box-debian
 * CentOS: https://github.com/puphpet/box-centos
 
+## History
+
+The history of this repo is saved in the legacy branch: https://github.com/puphpet/packer-templates/tree/legacy
